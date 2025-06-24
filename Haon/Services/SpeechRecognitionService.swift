@@ -31,7 +31,7 @@ final class SpeechRecognitionService: NSObject, SFSpeechRecognizerDelegate {
         try session.setActive(true, options: .notifyOthersOnDeactivation)
 
         request = SFSpeechAudioBufferRecognitionRequest()
-        guard let inputNode = audioEngine.inputNode else { throw NSError() }
+        let inputNode = audioEngine.inputNode
 
         guard let request = request else { throw NSError() }
 
