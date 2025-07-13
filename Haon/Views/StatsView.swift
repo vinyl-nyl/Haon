@@ -27,7 +27,7 @@ struct StatsView: View {
         }
         .padding()
         .frame(maxWidth: .infinity)
-        .background(Color.orange.opacity(0.1))
+        .background(Color.orange.opacity(0.2))
         .cornerRadius(12)
     }
 }

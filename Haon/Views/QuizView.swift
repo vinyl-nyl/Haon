@@ -26,7 +26,7 @@ struct QuizView: View {
                         Text(option)
                             .padding()
                             .frame(maxWidth: .infinity)
-                            .background(Color.blue.opacity(0.1))
+                            .background(Color.blue.opacity(0.2))
                             .cornerRadius(10)
                     }
                 }

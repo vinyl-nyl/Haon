@@ -19,7 +19,7 @@ struct ConversationCardView: View {
                 .foregroundColor(.secondary)
         }
         .padding()
-        .background(Color.green.opacity(0.1))
+        .background(Color.green.opacity(0.2))
         .cornerRadius(12)
     }
 }

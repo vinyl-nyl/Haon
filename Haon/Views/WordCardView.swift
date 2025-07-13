@@ -19,7 +19,7 @@ struct WordCardView: View {
                 .foregroundColor(.secondary)
         }
         .padding()
-        .background(Color.blue.opacity(0.1))
+        .background(Color.blue.opacity(0.2))
         .cornerRadius(12)
     }
 }
