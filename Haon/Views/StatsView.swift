@@ -15,13 +15,13 @@ struct StatsView: View {
             VStack {
                 Text("\(stats.totalDays)")
                     .font(.title.bold())
-                Text("총 학습일")
+                Text("総学習日")
                     .font(.caption)
             }
             VStack {
-                Text("\(stats.todayMinutes)분")
+                Text("\(stats.todayMinutes)分")
                     .font(.title.bold())
-                Text("오늘 학습")
+                Text("今日の学習")
                     .font(.caption)
             }
         }

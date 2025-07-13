@@ -25,7 +25,7 @@ struct ConversationView: View {
                 }
                 .padding(.vertical, 4)
             }
-            .navigationTitle("회화 연습")
+            .navigationTitle("会話")
         }
     }
 }

@@ -13,7 +13,7 @@ struct QuizView: View {
     var body: some View {
         NavigationView {
             VStack(spacing: 24) {
-                Text("다음 한국어 단어의 의미는?")
+                Text("次の韓国語の意味は?")
                     .font(.title3)
                 
                 Text(viewModel.currentQuestion.korean)
@@ -34,7 +34,7 @@ struct QuizView: View {
                 Spacer()
             }
             .padding()
-            .navigationTitle("퀴즈")
+            .navigationTitle("クイズ")
             .onAppear {
                 viewModel.loadQuiz()
             }

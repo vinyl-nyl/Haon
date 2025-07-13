@@ -9,7 +9,7 @@ import Foundation
 
 final class UserRepository {
     func fetchUserName() -> String {
-        return "게스트"
+        return "ゲスト"
     }
 
     func fetchStats() -> UserStats {

@@ -13,7 +13,7 @@ struct MyPageView: View {
     var body: some View {
         NavigationView {
             Form {
-                Section(header: Text("프로필")) {
+                Section(header: Text("プロフィール")) {
                     HStack {
                         Image(systemName: "person.circle")
                             .font(.largeTitle)
@@ -22,16 +22,16 @@ struct MyPageView: View {
                     }
                 }
 
-                Section(header: Text("학습 통계")) {
-                    Text("총 학습일: \(userViewModel.stats.totalDays)일")
-                    Text("오늘 학습 시간: \(userViewModel.stats.todayMinutes)분")
+                Section(header: Text("学主都計")) {
+                    Text("総学習日: \(userViewModel.stats.totalDays)日")
+                    Text("今日の学習時間: \(userViewModel.stats.todayMinutes)分")
                 }
 
-                Section(header: Text("설정")) {
-                    Toggle("알림 받기", isOn: $userViewModel.notificationsEnabled)
+                Section(header: Text("設定")) {
+                    Toggle("通知を受ける", isOn: $userViewModel.notificationsEnabled)
                 }
             }
-            .navigationTitle("마이페이지")
+            .navigationTitle("プロフィール")
         }
     }
 }

@@ -20,7 +20,7 @@ struct WordListView: View {
                         .foregroundColor(.secondary)
                 }
             }
-            .navigationTitle("단어 학습")
+            .navigationTitle("単語学習")
             .onAppear {
                 viewModel.loadWords()
             }
